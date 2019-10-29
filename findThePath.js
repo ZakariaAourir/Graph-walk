@@ -36,7 +36,6 @@ function main() {
   adj[6][8] = true;
   adj[8][5] = true;
 
-  // Path to be checked
   const s = "ABBECCD";
   const path =
     findPath(adj, s, s[0].charCodeAt() - "A".charCodeAt()) ||
